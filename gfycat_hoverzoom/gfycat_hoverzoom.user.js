@@ -1,6 +1,7 @@
+// Based on https://github.com/ubershmekel/gfycat_hoverzoom
 // ==UserScript==
 // @name gfycat hoverzoom
-// @namespace Koneke,11nov2013,ubershmekel,jan2014
+// @namespace blr
 // @description Shows gfycat links on hover
 // @include http://*.reddit.com/*
 // @version 2
