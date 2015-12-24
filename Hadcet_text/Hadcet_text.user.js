@@ -10,7 +10,8 @@
 
 function load_cet() {
     var type = window.location.pathname.split('_')[2].split('.')[0];
-    $.get('cet_'+ type +'_est_2014',function(dat){
+	var yr = (new Date(Date.now() - 1000 * 86400 * 2)).getFullYear(); // 2 days ago
+    $.get('cet_'+ type +'_est_' + yr,function(dat){
         $($('table')[4]).prepend('<pre>'+ dat +'</pre>');
     });
 }
