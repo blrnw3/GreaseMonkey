@@ -43,6 +43,9 @@ function move(is_left) {
     if(is_left) decimno();
     else incimno();
   }
+  if(s && s.getValue() > 287) {
+    s.setValue(287);
+  }
   cimage('radar', 0, -1);
   curr_time = $('#dtime').val();
   set_ui();

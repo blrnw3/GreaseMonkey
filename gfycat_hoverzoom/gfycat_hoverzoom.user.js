@@ -4,6 +4,7 @@
 // @namespace blr
 // @description Shows gfycat links on hover
 // @include http://*.reddit.com/*
+// @include https://*.reddit.com/*
 // @version 2
 // @grant none
 // ==/UserScript==
